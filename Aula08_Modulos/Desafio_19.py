@@ -2,7 +2,12 @@
 
 import random
 
-alunos = ('Bruna', 'Carlos', 'Beth', 'Edy')
-escolhido = random.choice(alunos)
+a1 = str(input('Digite o nome do aluno: '))
+a2 = str(input('Digite o nome do aluno: '))
+a3 = str(input('Digite o nome do aluno: '))
+a4 = str(input('Digite o nome do aluno: '))
+lista_alunos = [a1, a2, a3, a4]
+escolhido = random.choice(lista_alunos)
 #Retorna um elemento aleatório da sequência não vazia (alunos). Se (alunos) estiver vazio, IndexError.
-print('O escolhido foi: {}'.format(escolhido))
+print()
+print('O aluno escolhido foi: {}'.format(escolhido))
