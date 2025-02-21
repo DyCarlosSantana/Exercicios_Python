@@ -1,8 +1,15 @@
 import random
+import time
 n = random.randint(0, 5)
-print('Tente adivinhar o numero entre 0 e 5')
-chute = int(input('Faça seu chute: '))
-if chute == n:
+print('-=-'*20)
+print('vou pensar em um número entre 0 e 5. Tente adivinhar...')
+print('-=-'*20)
+jogador = int(input('Faça seu chute: '))
+print('PROCESSANDO...')
+time.sleep(1)
+if jogador == n:
+    print('Pensei no número {}'.format(n))
     print('Vocé acertou!')
 else:
-    print('Errou!')
+    print('Pensei no número {}'.format(n))
+    print('Você Errou!')
