@@ -22,4 +22,4 @@ cores = {'limpa':'\033[m',
          'verde': '\033[32m',
          'vermelho': '\033[31m'}
 nome = str(input('Nome:'))
-print('Olá,{}{}{}'.format(cores['vermelho'], nome, ['limpa']))
+print('Olá,{}{}{}'.format(cores['vermelho'], nome, cores['limpa']))
