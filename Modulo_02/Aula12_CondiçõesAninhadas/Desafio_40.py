@@ -14,4 +14,3 @@ elif media == 5.0 or media <= 6.9:
 elif media == 7.0:
     print('Média do Aluno: {}'.format(media))
     print('APROVADO')
-
