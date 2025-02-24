@@ -4,7 +4,7 @@ import time
 #Coleta dos dados:
 nome = str(input('Digite seu nome: '))
 renda_mensal = float(input('Informe sua renda mensal: '))
-valor_imovel = float(input('Informe o valor do imovel:'))
+valor_imovel = float(input('Informe o valor do imovel: '))
 tempo_pagamento = int(input('Em quantos anos pretende pagar o emprestimo?: '))
 print('PROCESSANDO...')
 time.sleep(2)
