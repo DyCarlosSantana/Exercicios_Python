@@ -5,11 +5,11 @@
 # 3x no cartão - 20% de juros.
 valor = float(input('Insira o valor do produto: R$'))
 #Formas de pagamento
-print('Formas de pagamento:')
-print('[1] À vista (dinheiro/cheque) - 10% de desconto')
-print('[2] À vista no cartão - 5% de desconto')
-print('[3] Cartão em até 2 vezes - Preço normal')
-print('[4] Cartão em 3 vezes ou mais - 20% de juros')
+print('''Formas de pagamento:
+[1] À vista (dinheiro/cheque) - 10% de desconto
+[2] À vista no cartão - 5% de desconto
+[3] Cartão em até 2 vezes - Preço normal
+[4] Cartão em 3 vezes ou mais - 20% de juros''')
 
 #Escolha da forma de pagamento
 forma_pagemento = int(input('Forma de pagamento:'))
@@ -32,6 +32,6 @@ else:
 
 #valor final
 print('-=-'*15)
-print('Forma de Pagamento: {}'.format(forma_pagemento))
+print('Forma de Pagamento: [{}]'.format(forma_pagemento))
 print('Valor Total: R${:.2f}'.format(valor_final))
 print('-=-'*15)

@@ -1,13 +1,12 @@
 #Calcular o IMC de uma pessoa e exibir a faixa de valores...
-idade = int(input('Insira sua Idade: '))
-altura = float(input('Insira sua Altura: '))
-peso = float(input('Insira seu peso: '))
 
-imc = peso / (altura ** 2)
+altura = float(input('Insira sua Altura (m): '))
+peso = float(input('Insira seu peso (Kg): '))
+
+imc = peso / (altura ** 2) #Peso dividido pela altura ao quadrado.
 print('')
 print('-=-'*15)
-print('Sua idade: {}'.format(idade))
-print('Seu Altura: {:.2f}m'.format(altura))
+print('Sua Altura: {:.2f}m'.format(altura))
 print('Seu Peso: {:.2f}Kg'.format(peso))
 print('Seu IMC: {:.2f}'.format(imc))
 print('')
