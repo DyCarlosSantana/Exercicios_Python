@@ -1,0 +1,1 @@
+#Crie um programa que leia uma frase qualque e diga se ela é um polindromo, desconsidereando os espaços.
