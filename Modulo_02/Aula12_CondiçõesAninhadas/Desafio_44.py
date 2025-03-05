@@ -12,26 +12,26 @@ print('''Formas de pagamento:
 [4] Cartão em 3 vezes ou mais - 20% de juros''')
 
 #Escolha da forma de pagamento
-forma_pagemento = int(input('Forma de pagamento:'))
+forma_pagamento = int(input('Forma de pagamento:'))
 a_vista = [1]
 cartao_vista = [2]
 cartao_2x = [3]
 cartao_3x = [4]
 
 #verificação
-if forma_pagemento == 1:
+if forma_pagamento == 1:
     valor_final = valor - (valor * 10 /100)
-elif forma_pagemento == 2:
+elif forma_pagamento == 2:
     valor_final = valor - (valor * 5 /100)
-elif forma_pagemento == 3: 
+elif forma_pagamento == 3: 
     valor_final = valor
-elif forma_pagemento == 4: 
+elif forma_pagamento == 4: 
     valor_final = valor + (valor * 20 /100)
 else:
     print('Opção Invalida, escolha um némero entre 1 e 4')
 
 #valor final
 print('-=-'*15)
-print('Forma de Pagamento: [{}]'.format(forma_pagemento))
+print('Forma de Pagamento: [{}]'.format(forma_pagamento))
 print('Valor Total: R${:.2f}'.format(valor_final))
 print('-=-'*15)

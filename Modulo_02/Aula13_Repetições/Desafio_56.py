@@ -2,3 +2,6 @@
 #A media de idade do grupo
 #Qual o nome do homem mais velo
 #Quantas mulheres têm menos de 20 anos.
+nome = str(input('NOME: '))
+idade = int(input('IDADE: '))
+sexo = str(input('SEXO: '))
