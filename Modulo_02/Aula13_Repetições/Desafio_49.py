@@ -1,6 +1,6 @@
 #Refaça o Desafio 09, mostrando a tabuada de um número que o usuario escolher, so que agora utilizando um laço (for)
-print('{:=^15}'.format('TABUADA'))
-n = int(input('Digite um número: '))
+print('{:=^50}'.format('TABUADA'))
+n = int(input('Você gostaria de ver a tabuada de qual número: '))
 print('ADIÇÃO')
 for c in range(1, 11):
     print('{} + {} = {}'.format(n, c, (n+c)))
