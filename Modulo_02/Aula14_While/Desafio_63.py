@@ -1,0 +1,1 @@
+#Escreva um programa que leia um numero n inteiro qualquer que mostre na tela os n primeiros elemenstos de uma sequencia de Fibonacci.

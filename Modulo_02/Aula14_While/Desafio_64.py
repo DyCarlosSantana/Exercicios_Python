@@ -1,0 +1,1 @@
+#Crie um programa que leia varios numeros inteiros oelo teclado, O programa so irá encerrar quando o valor digitado for '999', que é a condição de parada. no final mostre quantos números foram digitados e qual a soma entre eles sem contar o (flag)->condiçao de parada.

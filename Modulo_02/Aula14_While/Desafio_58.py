@@ -1,0 +1,1 @@
+#Melhore o jogo do desafio 29 onde o computador vai "Pensar" em um núemro de 0 a 10. Só que agora o ogador vai tentra adivinhar até acertar, mostrando no final quantos palpites foram necessarios para vencer.
