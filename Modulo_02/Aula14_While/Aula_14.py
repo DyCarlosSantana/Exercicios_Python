@@ -13,7 +13,7 @@ print('Fim')
 lista_valores =[]
 r = 'S'
 while r == 'S':
-    n = int(input('Digite um némero: '))
+    n = int(input('Digite um número: '))
     lista_valores.append(n)
     r = str(input('Quer continuar? [S/N]:')).upper().strip()
 print(lista_valores)
