@@ -12,13 +12,13 @@ while True:
 
     while True:
         print('''
-            OPÇÕES DISPONIVEIS:
-            [1]somar
-            [2]multiplicar
-            [3]maior
-            [4]novos numeros
-            [5]sair do programa''')
-        opcao = input('Escolha uma opção: ').strip()
+        OPÇÕES DISPONIVEIS:
+        [1]somar
+        [2]multiplicar
+        [3]maior
+        [4]novos numeros
+        [5]sair do programa''')
+        opcao = input('\nEscolha uma opção: ').strip()
         #  Verifica se o valor de 'opcao' não está na lista de opções válidas. 
         if opcao not in ['1', '2', '3', '4', '5']: 
             print('Opção invalida!')
@@ -40,6 +40,7 @@ while True:
         elif opcao == 5:
             print('Encerrando programa...')
             exit()  # Fecha o programa, dever ser usado quando não há mais nada a ser executado e o programa deve terminar.
+        input('\nPressione Enter para continuar...')
 print('Fim.')
 
 # ANOTAÇÕES
