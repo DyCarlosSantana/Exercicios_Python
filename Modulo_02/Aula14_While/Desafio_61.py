@@ -5,8 +5,10 @@ print('='*20)
 
 primeiro_termo = int(input('Primeiro termo: '))
 razao = int(input('Razão: '))
-decimo = primeiro_termo + (10 - 1) * razao #Formula para o Decimo termo de uma PA
-
-for c in range(primeiro_termo, decimo + razao, razao):
-    print('{}'.format(c),end=' -> ')
-print('Acabou')
+termo = primeiro_termo
+cont = 1
+while cont <= 10:
+    print('{}'.format(termo),end=' -> ')
+    termo += razao
+    cont += 1
+print('FIM') 
