@@ -5,15 +5,12 @@
 # No final, mostrar:
 # Quantos números foram digitados.
 # A soma entre eles (desconsiderando o 999).
-cont = 0
-soma = 0
-print('Condição de parada [999]')
+cont = soma = 0
+print('[Digite 999 para PARAR]')
 while True:
     num = int(input('Digite um número: '))
+    if num == 999:
+        break
     cont += 1
     soma += num
-    if num == 999:
-        cont -=1
-        soma -= 999
-        break
-print(f'Forma digitados {cont} números.\n A soma deles é: {soma}')
+print(f'A soma dos {cont} valores digitados é: {soma}')
