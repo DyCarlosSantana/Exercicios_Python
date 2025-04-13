@@ -14,9 +14,9 @@ total_cedulas = 0
 while True:
     if total >= cedula:
         total -= cedula
-        total += 1
+        total_cedulas += 1
     else:
-        if cedula > 0:
+        if total_cedulas > 0:
             print(f'Total de {total_cedulas} cédulas de R${cedula}')
         if cedula == 100:
             cedula = 50
@@ -31,5 +31,5 @@ while True:
         total_cedulas = 0
         if total == 0:
             break
-print('=' * 30)
+print('-' * 30)
 print('Volte senpre ao Banco CEV!')
